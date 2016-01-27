@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Moraine</h1>
+        <h2>Association pyrénéenne de glaciologie</h2>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+      <div class="gradient"></div>
+    </div>
+
+    <main>
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
