@@ -51,3 +51,9 @@
     z-index: 0;
   }
 }
+
+@media screen and (min-width: $screen-sm) {
+  .jumbotron {
+    padding-top: 60px;
+  }
+}

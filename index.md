@@ -17,20 +17,44 @@ Créée en 2001, L’association « Moraine » est l’Observatoire des Glaciers
 
 # Activités diversifiées
 
-## Etudes Scientifiques
+<div class="text-center">
+    <h2>Etudes Scientifiques</h2>
+</div>
 
-* Recherches bibliographiques (articles, ouvrages, photographies, cartes…) en vue de synthétiser les observations anciennes et de constituer un fond documentaire spécialisé.
+<div class="row">
+    <div class="col-sm-4">
+        Recherches bibliographiques (articles, ouvrages, photographies, cartes…) en vue de synthétiser les observations anciennes et de constituer un fond documentaire spécialisé.
+    </div>
+    <div class="col-sm-4">
+        Campagnes d’observations et de mesures glaciologiques : variations de volume, évolutions des surfaces, fluctuations des fronts, vitesses d’écoulement, modifications morphologiques, reconstitutions d’évolutions anciennes…
+    </div>
+    <div class="col-sm-4">
+        Rédaction de rapports techniques à partir des travaux de terrain, et participation à des colloques scientifiques.
+    </div>
+</div>
 
-* Campagnes d’observations et de mesures glaciologiques : variations de volume, évolutions des surfaces, fluctuations des fronts, vitesses d’écoulement, modifications morphologiques, reconstitutions d’évolutions anciennes…
 
-* Rédaction de rapports techniques à partir des travaux de terrain, et participation à des colloques scientifiques.
+<div class="text-center">
+    <h2>Diffusion des connaissances</h2>
+</div>
 
-## Diffusion des connaissances
+<div class="row">
+    <div class="col-sm-3">
+        Site Internet pour présenter l’association avec ses objectifs et ses activités, ainsi que des informations sur les glaciers pyrénéens.
+    </div>
+    <div class="col-sm-3">
+        Conférences – diaporamas pour visiter, le temps d’une soirée, les principaux glaciers des Pyrénées et entrevoir les originalités de chacun.
+    </div>
+    <div class="col-sm-3">
+        Sorties thématiques pour côtoyer, lors d’une excursion d’une journée, un glacier facile d’accès.
+    </div>
+    <div class="col-sm-3">
+        Documents divers de présentation des glaciers (articles, bulletins, brochures, panneaux d’exposition…).
+    </div>
+</div>
 
-* Site Internet pour présenter l’association avec ses objectifs et ses activités, ainsi que des informations sur les glaciers pyrénéens.
 
-* Conférences – diaporamas pour visiter, le temps d’une soirée, les principaux glaciers des Pyrénées et entrevoir les originalités de chacun.
 
-* Sorties thématiques pour côtoyer, lors d’une excursion d’une journée, un glacier facile d’accès.
 
-* Documents divers de présentation des glaciers (articles, bulletins, brochures, panneaux d’exposition…).
+
+

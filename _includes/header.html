@@ -12,7 +12,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="{% if page.section == 'home' %}active{% endif %}"><a href="{{site.baseurl}}/">Accueil</a></li>
         <li class="{% if page.section == 'glaciers' %}active{% endif %}"><a href="{{site.baseurl}}/pages/glaciers/">Les glaciers des Pyrénées</a></li>
-        <li><a href="#about">About</a></li>
+        <li class="{% if page.section == 'bibliographie' %}active{% endif %}"><a href="{{site.baseurl}}/pages/bibliographie/">Bibliographie</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
