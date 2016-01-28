@@ -1,32 +1,36 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  border: 0;
+  top: 0;
+}
+@media (max-width: $screen-sm) {
+  .navbar {
+    background-color: $brand-primary;
+  }
+}
 @media (min-width: $screen-sm) {
-  .banner {
+  .navbar {
     position: absolute;
-    z-index: 2;
-    width: 100%;
-    .affix {
-      background-color: rgba(32,132,251,1);
-      width: 100%;
-      .navbar-inner {
-        margin-top: 0;
-      }
+  }
+  .navbar-nav > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    & > a {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 3px;
     }
   }
 }
 
-.navbar-nav > li {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 3px;
-  &.active {
-    background: rgba(255,255,255,0.2);
-  }
-  & > a {
-    color: white;
-    padding-top: 3px;
-    padding-bottom: 3px;
+@media (max-width: $screen-sm) {
+  .jumbotron {
+    margin-top: $navbar-height;
   }
 }
-
 .jumbotron {
   background-image: url("../images/aneto_panorama.jpg");
   background-size: cover;
