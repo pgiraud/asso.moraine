@@ -26,12 +26,23 @@
   }
 }
 
+section {
+  padding: 0 0 50px 0;
+}
+section:nth-child(even) {
+  background-color: #f5f5f5;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
 @media (max-width: $screen-sm) {
   .jumbotron {
     margin-top: $navbar-height;
   }
 }
 .jumbotron {
+  padding-bottom: 0;
+  margin-bottom: 0;
   background-image: url("../images/aneto_panorama.jpg");
   background-size: cover;
   background-position: 50% 0;
@@ -64,5 +75,5 @@
   font-weight: 100;
 }
 .fa-color {
-  color: $brand-primary;
+  color: lighten($brand-primary, 20%);
 }
