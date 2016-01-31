@@ -194,3 +194,26 @@ title: Les glaciers des Pyrénées
   </div>
 </div>
 </section>
+
+<section>
+<div class="container">
+  <div class="text-center">
+    <h2>Pour aller plus loin ...</h2>
+  </div>
+  <div class="row">
+    <div class="col-sm-3 col-sm-offset-3 text-center">
+      <a href="{{ site.baseurl }}/pages/videos">
+      <div class=""><span class="fa fa-video-camera fa-2 fa-color"></span></div>
+      Vidéos
+      <br>
+      </a>
+    </div>
+    <div class="col-sm-3 text-center">
+      <a href="{{ site.baseurl }}/pages/photos">
+      <div class=""><span class="fa fa-picture-o fa-2 fa-color"></span></div>
+      Photos
+      </a>
+    </div>
+  </div>
+</div>
+</section>
