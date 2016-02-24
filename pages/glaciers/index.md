@@ -54,8 +54,10 @@ title: Les glaciers des Pyrénées
   <p>
     Les massifs supportant encore des glaciers se situent, d’Ouest en Est, entre le Balaïtous et le Mont Valier. On comptabilise au total 9 massifs, dont 5 se localisent en France (Balaïtous, Vignemale, Munia, Perdiguère et Mont Valier), 3 se situent en Espagne (Enfer, Posets et Aneto) et 1 est transfrontalier, il s’agit du massif de Gavarnie-Mont Perdu.
   </p>
-  <div>
-    <img src="{{ site.baseurl }}/images/carte-3.jpg" alt="Carte de localisation des glaciers des Pyrénées" title="Carte de localisation des glaciers des Pyrénées" class="img-responsive">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+      <img src="{{ site.baseurl }}/images/carte-3.jpg" alt="Carte de localisation des glaciers des Pyrénées" title="Carte de localisation des glaciers des Pyrénées" class="img-responsive">
+    </div>
   </div>
 </div>
 </section>
