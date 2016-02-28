@@ -1,3 +1,5 @@
+$color: rgba(32,132,251,0.4);
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -54,7 +56,7 @@ section:nth-child(even) {
     color: white;
   }
   .gradient {
-    background-color: rgba(32,132,251,0.4);
+    background-color: $color;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -76,4 +78,17 @@ section:nth-child(even) {
 }
 .fa-color {
   color: lighten($brand-primary, 20%);
+}
+
+ul.space li {
+  margin-bottom: 10px;
+}
+
+#navigation-scroll .nav>.active>a {
+  border-left: 2px solid $color;
+  font-weight: 700;
+}
+
+#navigation-scroll.affix {
+  top: 0;
 }
