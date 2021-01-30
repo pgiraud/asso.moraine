@@ -5,8 +5,8 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "layout",
         "bootstrap_variables",
         "bootstrap",
-        "base"
+        "layout"
+        //"base"
 ;

@@ -2,6 +2,7 @@
 layout: default
 section: glaciers
 title: Les glaciers des Pyrénées
+permalink: /glaciers/
 ---
 
 # Un préliminaire s’impose : la définition de « glacier »

@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
 
   {% include head.html %}
 
-  <body>
-
-    {% include header.html %}
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h2>{{ page.title }}</h2>
-      </div>
-      <div class="gradient"></div>
-    </div>
-
-    <main>
+  <body class="d-flex flex-column h-100">
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      {% include nav.html %}
+    </header>
+    <div class="container">
+      <main>
         {{ content }}
-    </main>
-
-    {% include footer.html %}
-
+      </main>
+    </div>
+    <footer class="container-fluid bg-dark flex-grow-1 mt-4">
+      <div class="container text-white py-4">
+        {% include footer.html %}
+      </div>
+    </footer>
   </body>
-
 </html>

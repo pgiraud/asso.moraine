@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: À propos
+permalink: /association/
+section: association
 ---
 
 # Contexte et objectifs
@@ -13,7 +15,7 @@ Créée en 2001, L’association « Moraine » est l’Observatoire des Glaciers
 
 # Activités diversifiées
 
-## Etudes Scientifiques
+## Études Scientifiques
 
 * Recherches bibliographiques (articles, ouvrages, photographies, cartes…) en vue de synthétiser les observations anciennes et de constituer un fond documentaire spécialisé.
 

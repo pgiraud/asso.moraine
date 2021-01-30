@@ -1,13 +1,6 @@
 $font-family-sans-serif: "Open Sans", Arial, sans-serif;
-$font-size-base: 16px;
+//$font-size-base: 16px;
 
-$brand-primary: rgb(32, 132, 251);
-
-$navbar-default-bg: transparent;
-$navbar-default-link-color: lighten($brand-primary, 35%);
-$navbar-default-link-hover-color: white;
-$navbar-default-link-hover-bg: rgba(255,255,255,0.1);
-$navbar-default-link-active-color: white;
-$navbar-default-link-active-bg: rgba(255,255,255,0.2);
-$navbar-default-toggle-hover-bg: transparent;
-$navbar-default-toggle-icon-bar-bg: white;
+//$brand-primary: rgb(32, 132, 251);
+$brand-primary: red;
+$dark: #003366; 
