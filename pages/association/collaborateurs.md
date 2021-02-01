@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Collaborateurs
-permalink: /collaborateurs/
-section: collaborateurs
+permalink: /association/collaborateurs/
+section: association
 ---
 
-<div class="row row-cols-1 row-cols-md-3 g-4 collaborateurs">
+<div class="row row-cols-1 row-cols-md-3 mt-0 g-4 collaborateurs">
   <div class="col">
     <div class="card h-100">
       <img src="{{ site.baseurl }}/images/collaborateurs/logo_aeag.jpg" class="align-self-center py-2 mw-100" alt="Logo Agence de l'Eau Adour-Garonne">

@@ -8,12 +8,12 @@
       {% include nav.html %}
     </header>
     <div class="container">
-      {% include breadcrumbs.html %}
+      <div class="row">
+        {% include breadcrumbs.html %}
+      </div>
     </div>
     <div class="container">
-      <main>
-        {{ content }}
-      </main>
+      {{ content }}
     </div>
     <footer class="container-fluid bg-dark flex-grow-1 mt-4">
       <div class="container text-white py-4">
