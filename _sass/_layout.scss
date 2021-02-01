@@ -21,14 +21,14 @@
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: $gray-600;
+  color: $gray-500;
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: .2rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: $gray-600;
+  border-bottom-color: $gray-500;
 }
 
 .nav-masthead .nav-link {
@@ -36,8 +36,8 @@
 }
 
 .nav-masthead .active {
-  color: $dark;
-  border-bottom-color: $dark;
+  color: $white;
+  border-bottom-color: $white;
 }
 
 .collaborateurs .card img {
