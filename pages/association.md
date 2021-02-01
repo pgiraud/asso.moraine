@@ -1,6 +1,6 @@
 ---
 layout: default
-title: À propos
+title: L'association
 permalink: /association/
 section: association
 ---
