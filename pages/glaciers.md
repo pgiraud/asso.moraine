@@ -50,3 +50,109 @@ Selon la définition précédemment établie, **25 glaciers** ont été inventor
 | *Enfer (3082m)*       | *Enfer Central*   | *véritable*   | 5,5           | 5,5                   |               | N             |
 |                       |                   |               |               |                       |               |               |
 {: .table}
+
+## Evolution récente
+
+De 1550 à 1850, on note une période de « mini glaciation » appelée Petit Age Glaciaire correspondant à un faible refroidissement du climat de la Terre. Celui-ci entraîna une avancée des glaciers des Pyrénées comme ceux des Alpes et des autres massifs englacés de la planète. Les moraines frontales et latérales « fraîches » présentes en aval des glaciers actuels sont les témoins de cette période.
+
+Depuis la fin de cette période de refroidissement, c’est un retrait généralisé qui est observé, conséquence d’un réchauffement du climat. Cependant, le recul a été entrecoupé de périodes de stagnation des fronts glaciaires parfois même de mini avancées. Les principales se seraient produites dans les années 1890, 1920, 1945 et 1970.
+
+
+<table class="table">
+  <caption>
+  La surface englacée pyrénéenne depuis 1850
+  </caption>
+  <thead>
+    <tr>
+      <th>Année</th>
+      <th>Surface (en km²)</th>
+      <th>Auteurs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1850</td>
+      <td>23</td>
+      <td>J. San Roman, J. Luis Piedrafita, P. René</td>
+    </tr>
+    <tr>
+      <td>1950</td>
+      <td>12,8</td>
+      <td>IGN + extrapolation P. René</td>
+    </tr>
+    <tr>
+      <td>1985</td>
+      <td>9,5</td>
+      <td>D. Serrat, J. Ventura, E. Martinez de Pison</td>
+    </tr>
+    <tr>
+      <td>1991</td>
+      <td>9,2</td>
+      <td>E. Martinez de Pison + extrapolation P. René</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>8,3</td>
+      <td>E. Martinez de Pison + extrapolation P. René</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>5,5</td>
+      <td>E. Martinez de Pison + extrapolation P. René</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>5</td>
+      <td>E. Martinez de Pison, P. René</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>4,7</td>
+      <td>E. Martinez de Pison + extrapolation P. René</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>3,5</td>
+      <td>M. Arenillas, P. René</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>3</td>
+      <td>R. Marti</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>2,6</td>
+      <td>I. Rico et al. et P. René</td>
+    </tr>
+  </tbody>
+</table>
+
+## Perspective
+
+A partir des données de surfaces globales des glaces pyrénéennes (cf. tableau « Evolution récente… »), on peut réaliser un graphique dont la courbe de tendance prévoit l’extinction des glaciers pour les environs de 2050.
+
+
+![Évolution de la surface englacée total (chaine pyrénéenne)](../images/Evolution surface englacée Pyrénées.jpg "Évolution de la surface englacée total (chaine pyrénéenne)"){: .mw-100}
+{: .text-center}
+
+
+Il est important de préciser que cette perspective artisanale est aucunement une certitude. Néanmoins, voici en image ce qu’une telle évolution pourrait donner :
+
+
+<div class="row">
+  <div class="col text-center">
+  Le Mont Perdu en 2000
+  <br>
+  <span markdown="1">
+  ![Le Mont Perdu en 2000](../images/Mont perdu en 2000.jpg "Le Mont Perdu en 2000")
+  </span>
+  </div>
+  <div class="col text-center">
+  Le Mont Perdu en 2050 ?
+  <br>
+  <span markdown="1">
+  ![Le Mont Perdu en 2050](../images/Mont perdu en 2050.jpg "Le Mont Perdu en 2050")
+  </span>
+  </div>
+</div>
