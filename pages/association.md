@@ -33,6 +33,22 @@ Créée en 2001, L’association « Moraine » est l’Observatoire des Glaciers
 
 * Documents divers de présentation des glaciers (articles, bulletins, brochures, panneaux d’exposition…).
 
+<div class="row">
+    <div class="col text-center">
+    <span markdown="1">
+    [Vidéos](../association/videos/){: .btn.btn-dark.text-white}
+    </span>
+    </div>
+    <div class="col text-center">
+    <span markdown="1">
+    [Photos](../association/photos/){: .btn.btn-dark.text-white}
+    </span>
+    </div>
+</div>
+
+
+
+
 # Partenariat
 
 L'association Moraine s'appuie sur le support ou la collaboration d'un certain
