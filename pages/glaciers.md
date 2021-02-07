@@ -145,14 +145,14 @@ Il est important de préciser que cette perspective artisanale est aucunement un
   Le Mont Perdu en 2000
   <br>
   <span markdown="1">
-  ![Le Mont Perdu en 2000](../images/Mont perdu en 2000.jpg "Le Mont Perdu en 2000")
+  ![Le Mont Perdu en 2000](../images/Mont perdu en 2000.jpg "Le Mont Perdu en 2000"){: .rounded.shadow}
   </span>
   </div>
   <div class="col text-center">
   Le Mont Perdu en 2050 ?
   <br>
   <span markdown="1">
-  ![Le Mont Perdu en 2050](../images/Mont perdu en 2050.jpg "Le Mont Perdu en 2050")
+  ![Le Mont Perdu en 2050](../images/Mont perdu en 2050.jpg "Le Mont Perdu en 2050"){: .rounded.shadow}
   </span>
   </div>
 </div>
