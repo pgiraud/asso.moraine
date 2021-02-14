@@ -36,20 +36,231 @@ Les massifs supportant encore des glaciers se situent, d’Ouest en Est, entre l
 | 8. Aneto (3404m) | Maladeta, Aneto, Barrancs, Tempêtes (ES) |
 | 9. Mont Valier (2838m) | Mont Valier (FR) |
 |-----------------+------------|
-{: .table }
+{: .table.table-sm }
 
 ## Inventaire en 2016
 
 Selon la définition précédemment établie, **25 glaciers** ont été inventoriés au sein des **9 massifs**. **18** d’entre eux sont classés dans la catégorie des **« véritables »**, c’est à dire présentant des crevasses. À noter que les glaciers sont plus nombreux sur le versant français, mais plus grands dans les Pyrénées espagnoles.
 
-![Tableau inventaire des glaciers des Pyrénées en 2016](../images/Tableau_glaciers_Pyrenees_2016.jpg "Tableau inventaire des glaciers des Pyrénées en 2016"){: .mw-100}
+<div class="table-responsive">
+  <table class="table table-bordered table-sm">
+    <caption>
+      Tableau inventaire des glaciers des Pyrénées en 2016
+      <br>
+      <small>(glaciers de surface supérieure ou égale à 2 hectares)</small>
+      <br>
+      <small>Sources : L. Rico, E. Serrano, J-I. Lopez-Moreno, Superficie glaciar
+      actuel en los Pirineos : una actualizacion para 2016 / Association Moraine</small>
+    </caption>
+    <thead>
+      <tr>
+        <th>Massif</th>
+        <th>Glacier</th>
+        <th>Catégorie</th>
+        <th>Surface (ha)</th>
+        <th>Total massif (ha)</th>
+        <th>Rang surface</th>
+        <th>Exposition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Balaïtous (3144m)</td>
+        <td>Las Néous</td>
+        <td>véritable</td>
+        <td class="text-end">3</td>
+        <td class="text-end">3</td>
+        <td class="text-end">&nbsp;</td>
+        <td>E</td>
+      </tr>
+      <tr class="fst-italic">
+        <td>Enfer (3082m)</td>
+        <td>Enfer Central</td>
+        <td>véritable</td>
+        <td class="text-end">5,5</td>
+        <td class="text-end">5,5</td>
+        <td class="text-end">&nbsp;</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="align-middle">Vignemale (3298m)</td>
+        <td>Ossoue</td>
+        <td>véritable</td>
+        <td class="text-end">37</td>
+        <td rowspan="3" class="align-middle text-end">50,5</td>
+        <td class="text-end">2</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Oulettes de Gaube</td>
+        <td>véritable</td>
+        <td class="text-end">11</td>
+        <td class="text-end">5</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td>Petit Vignemale</td>
+        <td>véritable</td>
+        <td class="text-end">2,5</td>
+        <td>&nbsp;</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td rowspan="6" class="align-middle">Gavarnie - <span class="fst-italic">Mont Perdu</span> (3355m)</td>
+        <td>Gabiétous</td>
+        <td>résiduel</td>
+        <td class="text-end">8</td>
+        <td rowspan="6" class="align-middle text-end">65</td>
+        <td>&nbsp;</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td>Taillon</td>
+        <td>véritable</td>
+        <td class="text-end">8</td>
+        <td>&nbsp;</td>
+        <td>N-E</td>
+      </tr>
+      <tr>
+        <td>Pailla Ouest</td>
+        <td>véritable</td>
+        <td class="text-end">4</td>
+        <td>&nbsp;</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td>Pailla Est</td>
+        <td>résiduel</td>
+        <td class="text-end">3</td>
+        <td>&nbsp;</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td>Astazou</td>
+        <td>résiduel</td>
+        <td class="text-end">4</td>
+        <td>&nbsp;</td>
+        <td>N-N-E</td>
+      </tr>
+      <tr class="fst-italic">
+        <td>Mont Perdu</td>
+        <td>véritable</td>
+        <td class="text-end"><small class="text-muted">(32 + 6)</small> 38</td>
+        <td class="text-end">3</td>
+        <td>N-E</td>
+      </tr>
+      <tr>
+        <td rowspan="2" class="align-middle">Munia (3133m)</td>
+        <td>Munia</td>
+        <td>véritable</td>
+        <td class="text-end">4</td>
+        <td rowspan="2" class="align-middle text-end">8</td>
+        <td>&nbsp;</td>
+        <td>N-N-O</td>
+      </tr>
+      <tr>
+        <td>Barroude</td>
+        <td>résiduel</td>
+        <td class="text-end">4</td>
+        <td>&nbsp;</td>
+        <td>N-N-E</td>
+      </tr>
+      <tr class="fst-italic">
+        <td rowspan="3" class="align-middle">Posets (3375m)</td>
+        <td>Llardana</td>
+        <td>véritable</td>
+        <td class="text-end">7,5</td>
+        <td rowspan="3" class="align-middle text-end">15,5</td>
+        <td>&nbsp;</td>
+        <td>N-O</td>
+      </tr>
+      <tr class="fst-italic">
+        <td>Paoules</td>
+        <td>véritable</td>
+        <td class="text-end">6</td>
+        <td>&nbsp;</td>
+        <td>N-N-E</td>
+      </tr>
+      <tr class="fst-italic">
+        <td>Posets</td>
+        <td>résiduel</td>
+        <td class="text-end">2</td>
+        <td>&nbsp;</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td rowspan="4" class="align-middle">Luchonnais</td>
+        <td>Seil de la Baque Ouest</td>
+        <td>résiduel</td>
+        <td class="text-end">2</td>
+        <td rowspan="4" class="align-middle text-end">18,5</td>
+        <td>&nbsp;</td>
+        <td>N-N-O</td>
+      </tr>
+      <tr>
+        <td>Seil de la Baque Est</td>
+        <td>véritable</td>
+        <td class="text-end">9</td>
+        <td>&nbsp;</td>
+        <td>N-E</td>
+      </tr>
+      <tr>
+        <td>Portillon d’Oô</td>
+        <td>véritable</td>
+        <td class="text-end">3</td>
+        <td class="text-end">6</td>
+        <td>N</td>
+      </tr>
+      <tr>
+        <td>Boum</td>
+        <td>résiduel</td>
+        <td class="text-end">4,5</td>
+        <td>&nbsp;</td>
+        <td>N-N-E</td>
+      </tr>
+      <tr class="fst-italic">
+        <td rowspan="4" class="align-middle">Aneto (3404m)</td>
+        <td>Maladetta</td>
+        <td>véritable</td>
+        <td class="text-end"><small class="text-muted">(25 + 4)</small> 29</td>
+        <td rowspan="4" class="align-middle text-end">96</td>
+        <td class="text-end">4</td>
+        <td>N</td>
+      </tr>
+      <tr class="fst-italic">
+        <td>Aneto</td>
+        <td>véritable</td>
+        <td class="text-end">56</td>
+        <td class="text-end">1</td>
+        <td>N-N-E</td>
+      </tr>
+      <tr class="fst-italic">
+        <td>Barrancs</td>
+        <td>véritable</td>
+        <td class="text-end">4,5</td>
+        <td>&nbsp;</td>
+        <td>N-E</td>
+      </tr>
+      <tr class="fst-italic">
+        <td>Tempêtes</td>
+        <td>véritable</td>
+        <td class="text-end">6,5</td>
+        <td>&nbsp;</td>
+        <td>N-E</td>
+      </tr>
+      <tr>
+        <td>Mont Vallier (2838m)</td>
+        <td>Mont Vallier</td>
+        <td>véritable</td>
+        <td class="text-end">2</td>
+        <td class="text-end">2</td>
+        <td>&nbsp;</td>
+        <td>E</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| Massif                | Glacier           | Catégorie     | Surface (ha)  | Total massif (ha)     | Rang surface  | Exposition    |
-|-------------------    |-----------------  |-------------  |-------------- |-------------------    |-------------- |------------   |
-| Balaïtous (3144m)     | Las Néous         | véritable     | 3             | 3                     |               | E             |
-| *Enfer (3082m)*       | *Enfer Central*   | *véritable*   | 5,5           | 5,5                   |               | N             |
-|                       |                   |               |               |                       |               |               |
-{: .table}
 
 ## Evolution récente
 
