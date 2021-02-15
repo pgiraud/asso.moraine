@@ -370,3 +370,5 @@ Il est important de préciser que cette perspective artisanale est aucunement un
 
 Pour aller plus loin, [consultez ces autres sites](../association/liens/)
 {: .mt-5}
+
+{% include haut-de-page.html %}
