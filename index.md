@@ -3,75 +3,361 @@ layout: home
 section: home
 ---
 
-<section>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3">
-      <h1>
-        Contexte et objectifs
-      </h1>
-    </div>
-    <div class="col-sm-9">
-      <br>
+<!-- HERO -->
+<section class="hero-section">
+  <div class="container">
+    <div class="hero-content">
+      <h1>Observer, comprendre, transmettre</h1>
+
       <p>
-      A l’aube du 21ème siècle, les glaciers des Pyrénées françaises souffraient d’une méconnaissance importante (effectifs, localisations, caractéristiques). En effet, ils n’avaient pas connu d’observations d’ensemble depuis la fin des années 1980. Tandis que sur le versant espagnol, ils font l’objet d’un suivi annuel régulier et l’on connaît précisément leurs évolutions.
+        L'association Moraine est l'observatoire des glaciers des Pyrénées
+        françaises. Nous suivons chaque année l'évolution des glaciers pour
+        mieux comprendre les changements de notre environnement montagnard.
       </p>
-      <p>
-      Créée en 2001, L’association « Moraine » est l’Observatoire des Glaciers des Pyrénées françaises. Elle a donc pour objectif de suivre annuellement leur évolution (longueur, surface, volume). Une collaboration étroite avec les glaciologues espagnols permet d’avoir des informations complètes à l’échelle de la chaîne. De plus, l’objectif est de diffuser largement les connaissances sur le sujet grâce à différents moyens de communication (internet, conférences, livre, exposition, médias).
-      </p>
+
+      <div class="d-flex flex-wrap gap-3">
+        <a
+          href="#"
+          class="btn btn-primary-custom icon-link icon-link-hover"
+        >
+          Découvrir les glaciers
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </a>
+
+        <a
+          href="#"
+          class="btn btn-outline-light-custom icon-link icon-link-hover"
+        >
+          Soutenir l'association
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-heart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+            />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
-</div>
 </section>
 
-<section>
-<div class="container">
-  <div class="text-center">
-    <h2>Études Scientifiques</h2>
+<!-- MISSION -->
+<section class="section-padding">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <div class="section-subtitle">Notre mission</div>
+
+        <h2 class="section-title">
+          Suivre l'évolution des glaciers des Pyrénées françaises
+        </h2>
+
+        <p>
+          A l’aube du 21ème siècle, les glaciers des Pyrénées françaises
+          souffraient d’une méconnaissance importante (effectifs,
+          localisations, caractéristiques). En effet, ils n’avaient pas
+          connu d’observations d’ensemble depuis la fin des années 1980.
+          Tandis que sur le versant espagnol, ils font l’objet d’un suivi
+          annuel régulier et l’on connaît précisément leurs évolutions.
+        </p>
+
+
+        <a
+          href="{{ site.baseurl }}/association"
+          class="fw-semibold icon-link icon-link-hover align-items-center"
+        >
+          En savoir plus sur l'association
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="objective-card">
+          <h4 class="fw-bold mb-4">Nos objectifs</h4>
+
+          <ul class="objective-list p-0 m-0">
+            <li>
+              Suivre annuellement l'évolution des glaciers (longueur,
+              surface, volume).
+            </li>
+
+            <li>
+              Mettre à disposition des données fiables à l'échelle de la
+              chaîne pyrénéenne.
+            </li>
+
+            <li>
+              Informer et sensibiliser le public grâce à différents moyens
+              de communication.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="text-center"><span class="fa fa-book fa-2 fa-color"></span></div>
-      Recherches bibliographiques (articles, ouvrages, photographies, cartes…) en vue de synthétiser les observations anciennes et de constituer un fond documentaire spécialisé.
-    </div>
-    <div class="col-sm-4">
-      <div class="text-center"><span class="fa fa-area-chart fa-2 fa-color"></span></div>
-      Campagnes d’observations et de mesures glaciologiques : variations de volume, évolutions des surfaces, fluctuations des fronts, vitesses d’écoulement, modifications morphologiques, reconstitutions d’évolutions anciennes…
-    </div>
-    <div class="col-sm-4">
-      <div class="text-center"><span class="fa fa-file-text-o fa-2 fa-color"></span></div>
-      Rédaction de rapports techniques à partir des travaux de terrain, et participation à des colloques scientifiques.
-      <br>
-    </div>
-  </div>
-</div>
 </section>
 
-<section>
-<div class="container">
-  <div class="text-center">
-    <h2>Diffusion des connaissances</h2>
-  </div>
+<!-- ACTIVITIES -->
+<section class="pb-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-subtitle">Nos activités</div>
 
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="text-center"><span class="fa fa-link fa-2 fa-color"></span></div>
-      Site Internet pour présenter l’association avec ses objectifs et ses activités, ainsi que des informations sur les glaciers pyrénéens.
+      <h2 class="section-title">Observer. Analyser. Partager.</h2>
     </div>
-    <div class="col-sm-3">
-      <div class="text-center"><span class="fa fa-bullhorn fa-2 fa-color"></span></div>
-      Conférences – diaporamas pour visiter, le temps d’une soirée, les principaux glaciers des Pyrénées et entrevoir les originalités de chacun.
-    </div>
-    <div class="col-sm-3">
-      <div class="text-center"><span class="fa fa-compass fa-2 fa-color"></span></div>
-      Sorties thématiques pour côtoyer, lors d’une excursion d’une journée, un glacier facile d’accès.
-    </div>
-    <div class="col-sm-3">
-      <div class="text-center"><span class="fa fa-object-group fa-2 fa-color"></span></div>
-      Documents divers de présentation des glaciers (articles, bulletins, brochures, panneaux d’exposition…).
-      <br>
-      <a href="{{ site.baseurl }}/pages/bibliographie/index.html" class="btn btn-link btn-sm pull-right">Voir la bibliographie</a>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://dis-leur.fr/wp-content/uploads/2025/02/20240913_112050.jpg"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-graph-up"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Suivi des glaciers</h5>
+
+            <p>
+              Observations de terrain et mesures annuelles pour documenter
+              l'évolution des glaciers pyrénéens.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://live.staticflickr.com/938/42091246340_f6fa336f4c_z.jpg"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-people"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Collaboration scientifique</h5>
+
+            <p>
+              Partenariats avec des glaciologues espagnols et institutions
+              pour des données complètes et fiables.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://live.staticflickr.com/5554/31110633770_20bd5f20d8_z.jpg"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-megaphone"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Diffusion des connaissances</h5>
+
+            <p>
+              Conférences, publications, expositions et médias pour partager
+              la connaissance des glaciers.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1000&auto=format&fit=crop"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-camera"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Ressources & données</h5>
+
+            <p>
+              Accédez à nos ressources, bibliographie et liens utiles sur la
+              glaciologie.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
+
+<!-- FEATURED BOOK -->
+<section class="section-padding">
+  <div class="container">
+    <div class="book-section">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-3">
+          <div class="book-cover">
+            <img
+              src="https://static.fnac-static.com/multimedia/Images/FR/NR/42/76/23/19101250/1507-1/tsp20251212092029/Glaciers-des-Pyrenees.jpg"
+              alt="Book Cover"
+            />
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="section-subtitle">Le livre</div>
+
+          <h2 class="section-title mb-3">Glaciers des Pyrénées</h2>
+
+          <div class="section-subtitle">
+            26 ans d'exploration et de mesures
+          </div>
+
+          <p class="mb-4">
+            Synthèse de décennies d'observation sur les glaciers des
+            Pyrénées françaises. Un ouvrage de référence pour comprendre
+            leur évolution et les enjeux climatiques associés.
+          </p>
+
+          <a
+            href="#"
+            class="btn btn-primary-custom icon-link icon-link-hover"
+          >
+            En savoir plus sur le livre
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="book-feature">
+            <i class="bi bi-bar-chart-line"></i>
+
+            <div>
+              <h6 class="fw-bold mb-1">
+                Données scientifiques rigoureuses
+              </h6>
+            </div>
+          </div>
+
+          <div class="book-feature">
+            <i class="bi bi-image"></i>
+
+            <div>
+              <h6 class="fw-bold mb-1">Photos et cartes inédites</h6>
+            </div>
+          </div>
+
+          <div class="book-feature">
+            <i class="bi bi-book"></i>
+
+            <div>
+              <h6 class="fw-bold mb-1">Outil de référence pour tous</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="pb-5">
+  <div class="container">
+    <div class="cta-section">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2rem"
+              height="2rem"
+              fill="currentColor"
+              class="bi bi-heart me-2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+              />
+            </svg>
+            Soutenez nos actions
+          </h2>
+
+          <p class="mb-0 text-white-50">
+            Votre adhésion ou votre don nous permet de poursuivre le suivi
+            des glaciers et la diffusion des connaissances.
+          </p>
+        </div>
+
+        <div class="col-lg-6 text-lg-end">
+          <a
+            href="#"
+            class="btn btn-light px-4 py-3 rounded-pill fw-semibold me-2"
+          >
+            Adhérer à l'association
+          </a>
+
+          <a
+            href="#"
+            class="btn btn-outline-light rounded-pill px-4 py-3 fw-semibold"
+          >
+            Faire un don
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

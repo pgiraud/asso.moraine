@@ -5,47 +5,104 @@ permalink: /association/
 section: association
 ---
 
-# Contexte et objectifs
+<section class="pb-5">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-7">
+<div class="section-title">Contexte et objectifs</div>
 
-![image](../images/ossoue_gentianes.jpg){: .float-end.rounded.shadow.mw-100.mb-4}
+<h2 class="section-subtitle">
+Suivre l'évolution des glaciers des Pyrénées françaises
+</h2>
 
-<div class="p-4" markdown="1">
-A l’aube du 21ème siècle, les glaciers des Pyrénées françaises souffraient d’une méconnaissance importante (effectifs, localisations, caractéristiques). En effet, ils n’avaient pas connu d’observations d’ensemble depuis la fin des années 1980. Tandis que sur le versant espagnol, ils font l’objet d’un suivi annuel régulier et l’on connaît précisément leurs évolutions.
+<p>
+A l’aube du 21ème siècle, les glaciers des Pyrénées françaises
+souffraient d’une méconnaissance importante (effectifs,
+localisations, caractéristiques). En effet, ils n’avaient pas
+connu d’observations d’ensemble depuis la fin des années 1980.
+Tandis que sur le versant espagnol, ils font l’objet d’un suivi
+annuel régulier et l’on connaît précisément leurs évolutions.
+</p>
 
-
+<p>
 Créée en 2001, L’association « Moraine » est l’Observatoire des Glaciers des Pyrénées françaises. Elle a donc pour objectif de suivre annuellement leur évolution (longueur, surface, volume). Une collaboration étroite avec les glaciologues espagnols permet d’avoir des informations complètes à l’échelle de la chaîne. De plus, l’objectif est de diffuser largement les connaissances sur le sujet grâce à différents moyens de communication (internet, conférences, livre, exposition, médias).
+</p>
 </div>
- 
-{: .clearfix }
-
-
-# Activités diversifiées
-
-## Études Scientifiques
-
-![image](../images/mesures.jpg){: .float-end.rounded.shadow.mw-100.mb-4}
-
-<div class="p-4" markdown="1">
-* Recherches bibliographiques (articles, ouvrages, photographies, cartes…) en vue de synthétiser les observations anciennes et de constituer un fond documentaire spécialisé.
-* Campagnes d’observations et de mesures glaciologiques : variations de volume, évolutions des surfaces, fluctuations des fronts, vitesses d’écoulement, modifications morphologiques, reconstitutions d’évolutions anciennes…
-* Rédaction de rapports techniques à partir des travaux de terrain, et participation à des colloques scientifiques.
+<div class="col-lg-5">
+<div class="card rounded overflow-hidden rounded-4 shadow">
+<img
+src="../images/ossoue_gentianes.jpg"
+class="img-fluid"
+/>
 </div>
- 
-{: .clearfix }
+</div>
+</div>
+</div>
+</section>
 
-## Diffusion des connaissances
+<section class="pb-5">
+<div class="text-center mb-5">
+  <h2 class="section-title">Activités diversifiées</h2>
+  <div class="section-subtitle">Ce que nous faisons</div>
 
-![image](../images/diffusion_connaissances.png){: .float-end.rounded.shadow.mw-100.mb-4}
+</div>
+<div class="container">
+    <div class="row pb-5 align-items-center">
+        <div class="col-lg-7">
+  <h4 class="fw-bold mb-4">Études scientifiques</h4>
+<ul>
+<li>
+    Recherches bibliographiques (articles, ouvrages, photographies, cartes…) en vue de synthétiser les observations anciennes et de constituer un fond documentaire spécialisé.
+        </li>
+        <li>
+    Campagnes d’observations et de mesures glaciologiques : variations de volume, évolutions des surfaces, fluctuations des fronts, vitesses d’écoulement, modifications morphologiques, reconstitutions d’évolutions anciennes…
+        </li>
+        <li>
+    Rédaction de rapports techniques à partir des travaux de terrain, et participation à des colloques scientifiques.
+        </li>
+</ul>
+        </div>
+<div class="col-lg-5">
+<div class="card rounded overflow-hidden rounded-4 shadow">
+<img
+src="../images/mesures.jpg"
+class="img-fluid"
+/>
+</div>
+    </div>
+</div>
+    <div class="row align-items-center  flex-md-row-reverse">
+        <div class="col-lg-7">
+  <h4 class="fw-bold mb-4">Diffusion des connaissances</h4>
+<ul>
+<li>
+Site Internet pour présenter l’association avec ses objectifs et ses activités, ainsi que des informations sur les glaciers pyrénéens.
+        </li>
+        <li>
+Conférences – diaporamas pour visiter, le temps d’une soirée, les principaux glaciers des Pyrénées et entrevoir les originalités de chacun.
+        </li>
+        <li>
+Sorties thématiques pour côtoyer, lors d’une excursion d’une journée, un glacier facile d’accès.
+        </li>
 
-* Site Internet pour présenter l’association avec ses objectifs et ses activités, ainsi que des informations sur les glaciers pyrénéens.
 
-* Conférences – diaporamas pour visiter, le temps d’une soirée, les principaux glaciers des Pyrénées et entrevoir les originalités de chacun.
 
-* Sorties thématiques pour côtoyer, lors d’une excursion d’une journée, un glacier facile d’accès.
-
-* Documents divers de présentation des glaciers (articles, bulletins, brochures, panneaux d’exposition…).
- 
-{: .clearfix }
+<li>
+    Documents divers de présentation des glaciers (articles, bulletins, brochures, panneaux d’exposition…).
+        </li>
+</ul>
+        </div>
+<div class="col-lg-5">
+<div class="card rounded overflow-hidden rounded-4 shadow">
+<img
+src="../images/diffusion_connaissances.png"
+class="img-fluid"
+/>
+</div>
+    </div>
+</div>
+</div>
+</section>
 
 # Photos et vidéos 
 
@@ -66,8 +123,40 @@ Créée en 2001, L’association « Moraine » est l’Observatoire des Glaciers
 
 
 
+<!-- FEATURED BOOK -->
+<section class="section-padding">
+  <div class="container">
+    <div class="book-section">
+    <div class="row flex align-items-center">
+    <div class="col-lg-8">
+    <div class="section-subtitle">Collaborations</div>
 
-# Partenariat
-
-L'association Moraine s'appuie sur le support ou la collaboration d'un certain
-nombre de <a href="{{ site.baseurl }}/association/collaborateurs/">partenaires</a>.
+    <h2 class="section-title mb-3">Partenariats</h2>
+    <p>
+    L'association Moraine s'appuie sur le support ou la collaboration d'un certain
+    nombre de partenaires.
+    </p>
+    </div>
+    <div class="col-lg-4 text-lg-end">
+    <a href="{{ site.baseurl }}/association/collaborateurs/"
+    class="btn btn-primary-custom icon-link icon-link-hover"
+    >En savoir plus
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    fill="currentColor"
+    class="bi bi-arrow-right"
+    viewBox="0 0 16 16"
+    >
+    <path
+    fill-rule="evenodd"
+    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+    />
+    </svg>
+    </a>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
