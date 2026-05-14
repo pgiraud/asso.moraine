@@ -1,0 +1,35 @@
+<section class="pt-5" id="{{include.key }}">
+  <div class="container">
+    <h2 class="section-title">{{ include.title }}</h2>
+
+    <div class="row">
+      <ul>
+        {% for item in include.items %}
+        <li>
+          {% if item.magazine or item.journal or item.chaine %}
+          <b>{{ item.magazine }}{{ item.journal }}{{ item.chaine }}</b>
+          <br />
+          {% if item.title %}
+          <span>{{ item.title }}</span>
+          <br />
+          {% endif %} {% else %}
+          <b>{{ item.title }}</b>
+          <br />
+          {% endif %} {% if item.subtitle %} {{ item.subtitle }}
+          <br />
+          {%endif %}
+          <small class="text-secondary">
+            {% if item.author %}
+            <em>{{ item.author }}, {{ item.year }}</em>
+            {% endif %} {% if item.date %}
+            <em>{{ item.date }}</em>{% endif %}{% if item.pages %}<em>
+              , {{ item.pages }}</em
+            >
+            {% endif %}
+          </small>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

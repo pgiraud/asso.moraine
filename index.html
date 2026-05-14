@@ -1,875 +1,358 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assoation Moraine</title>
+---
+layout: home
+section: home
+---
 
-    <!-- Bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<!-- HERO -->
+<section class="hero-section">
+  <div class="container">
+    <div class="hero-content">
+      <h1>Observer, comprendre, transmettre</h1>
 
-    <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+      <p>
+        L'association Moraine est l'observatoire des glaciers des Pyrénées
+        françaises. Nous suivons chaque année l'évolution des glaciers pour
+        mieux comprendre les changements de notre environnement montagnard.
+      </p>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-
-    <style>
-      :root {
-        --primary-color: #0d4ea6;
-        --secondary-color: #16375b;
-        --dark-color: #0b1f36;
-        --light-bg: #f4f7fb;
-      }
-
-      body {
-        font-family: "Inter", sans-serif;
-        color: #1c2b39;
-        background: #fff;
-        line-height: 1.7;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      .section-padding {
-        padding: 90px 0;
-      }
-
-      .btn-primary-custom {
-        background: var(--primary-color);
-        border: none;
-        color: #fff;
-        padding: 12px 28px;
-        border-radius: 12px;
-        font-weight: 600;
-      }
-
-      .btn-primary-custom:hover {
-        background: #0b428d;
-        color: #fff;
-      }
-
-      .btn-outline-light-custom {
-        border: 1px solid rgba(255, 255, 255, 0.8);
-        color: #fff;
-        padding: 12px 28px;
-        border-radius: 12px;
-        font-weight: 600;
-      }
-
-      .btn-outline-light-custom:hover {
-        background: #fff;
-        color: var(--dark-color);
-      }
-
-      /* Navbar */
-      .navbar {
-        padding: 20px 0;
-        position: fixed;
-        width: 100%;
-        z-index: 1000;
-      }
-
-      /* Navbar default state */
-      .navbar {
-        transition:
-          background-color 0.3s ease,
-          padding 0.3s ease;
-        background-color: rgba(24, 54, 90, 0.2);
-      }
-
-      /* Navbar after scrolling */
-      .scrolled .navbar {
-        background-color: rgba(24, 54, 90, 0.95);
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-      }
-
-      .navbar-brand {
-        font-size: 1.6rem;
-        font-weight: 800;
-        letter-spacing: 1px;
-        color: #fff;
-      }
-
-      .navbar-subtitle {
-        font-size: 0.8rem;
-        font-weight: normal;
-        letter-spacing: 1px;
-        line-height: 1rem;
-      }
-
-      .navbar .nav-link {
-        color: rgba(255, 255, 255, 0.8);
-        font-weight: 500;
-        margin-left: 18px;
-      }
-
-      .navbar .nav-link:hover {
-        color: #fff;
-      }
-
-      /* Hero */
-      .hero-section {
-        min-height: 70vh;
-        background:
-          linear-gradient(
-            to right,
-            rgba(7, 21, 40, 0.92),
-            rgba(7, 21, 40, 0.55),
-            rgba(7, 21, 40, 0.2)
-          ),
-          url("https://live.staticflickr.com/6189/6125427842_27f712b04e_k.jpg")
-            center center / cover no-repeat;
-        display: flex;
-        align-items: center;
-        position: relative;
-      }
-
-      .hero-content {
-        color: #fff;
-        max-width: 620px;
-      }
-
-      .hero-content h1 {
-        font-size: 4rem;
-        font-weight: 800;
-        line-height: 1.1;
-        margin-bottom: 28px;
-      }
-
-      .hero-content p {
-        font-size: 1.1rem;
-        color: rgba(255, 255, 255, 0.85);
-        margin-bottom: 35px;
-      }
-
-      /* Section headings */
-      .section-subtitle {
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        font-size: 0.8rem;
-        color: var(--primary-color);
-        font-weight: 700;
-        margin-bottom: 10px;
-      }
-
-      .section-title {
-        font-size: 2.6rem;
-        font-weight: 800;
-        line-height: 1.2;
-        margin-bottom: 25px;
-        color: var(--secondary-color);
-      }
-
-      /* Objective card */
-      .objective-card {
-        background: var(--light-bg);
-        border-radius: 24px;
-        padding: 40px;
-        height: 100%;
-      }
-
-      .objective-list li {
-        margin-bottom: 18px;
-        list-style: none;
-        position: relative;
-        padding-left: 34px;
-      }
-
-      .objective-list li::before {
-        content: "\F26E";
-        font-family: bootstrap-icons;
-        position: absolute;
-        left: 0;
-        top: 2px;
-        color: var(--primary-color);
-        font-size: 1.1rem;
-      }
-
-      /* Activity cards */
-      .activity-card {
-        border: none;
-        border-radius: 20px;
-        overflow: hidden;
-        transition: all 0.3s ease;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-        height: 100%;
-      }
-
-      .activity-card:hover {
-        transform: translateY(-6px);
-      }
-
-      .activity-card img {
-        height: 220px;
-        object-fit: cover;
-      }
-
-      .activity-card .card-body {
-        padding: 28px;
-      }
-
-      .icon-circle {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-        background-color: var(--primary-color);
-        color: white;
-        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.4rem;
-        margin-bottom: 18px;
-      }
-
-      /* Featured Book */
-      .book-section {
-        background: var(--light-bg);
-        border-radius: 28px;
-        padding: 60px;
-      }
-
-      .book-cover {
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
-      }
-
-      .book-cover img {
-        width: 100%;
-        display: block;
-      }
-
-      .book-feature {
-        display: flex;
-        gap: 14px;
-        margin-bottom: 24px;
-      }
-
-      .book-feature i {
-        color: var(--primary-color);
-        font-size: 1.5rem;
-        margin-top: 3px;
-      }
-
-      /* CTA */
-      .cta-section {
-        background: linear-gradient(135deg, #0d4ea6, #0a2d57);
-        color: #fff;
-        border-radius: 28px;
-        padding: 50px;
-      }
-
-      /* Footer */
-      footer {
-        background: linear-gradient(135deg, #081726, #0c2744);
-        color: rgba(255, 255, 255, 0.8);
-        padding-top: 70px;
-      }
-
-      footer h5 {
-        color: #fff;
-        margin-bottom: 24px;
-        font-weight: 700;
-      }
-
-      footer a {
-        color: rgba(255, 255, 255, 0.8);
-        display: block;
-        margin-bottom: 10px;
-      }
-
-      footer a:hover {
-        color: #fff;
-      }
-
-      .footer-bottom {
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        margin-top: 50px;
-        padding: 22px 0;
-        font-size: 0.95rem;
-      }
-
-      .social-icons a {
-        width: 42px;
-        height: 42px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.08);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-        color: #fff;
-      }
-
-      .social-icons a:hover {
-        background: var(--primary-color);
-      }
-
-      @media (max-width: 991px) {
-        .navbar {
-          background: rgba(8, 23, 38, 0.95);
-        }
-
-        .hero-content h1 {
-          font-size: 3rem;
-        }
-
-        .section-title {
-          font-size: 2rem;
-        }
-
-        .book-section,
-        .cta-section {
-          padding: 40px 30px;
-        }
-      }
-
-      @media (max-width: 768px) {
-        .hero-content h1 {
-          font-size: 2.4rem;
-        }
-
-        .section-padding {
-          padding: 70px 0;
-        }
-
-        .hero-section {
-          min-height: 85vh;
-        }
-      }
-      .mt-n5 {
-        margin-top: -3rem !important;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand d-flex" href="#">
+      <div class="d-flex flex-wrap gap-3">
+        <a
+          href="{{ site.baseurl }}/glaciers"
+          class="btn btn-primary-custom icon-link icon-link-hover"
+        >
+          Découvrir les glaciers
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            xml:space="preserve"
-            width="40"
-            height="40"
-            stroke="currentColor"
-            class="bi me-3"
-            viewBox="0 0 1.69 1.69"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
           >
             <path
-              d="m84.808 211.167-.328.39.157.188h.656zm-.17.578-.341-.406-.341.406z"
-              style="
-                fill: none;
-                stroke-width: 0.08;
-                stroke-dasharray: none;
-                stroke-opacity: 1;
-                stop-color: #000;
-              "
-              transform="translate(-83.782 -210.588)"
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
             />
           </svg>
-          <div>
-            Moraine
-            <div class="navbar-subtitle">
-              Assoation Pyrénéenne<br />
-              de Glaciologie
-            </div>
-          </div>
         </a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
+        <a
+          href="#"
+          class="btn btn-outline-light-custom icon-link icon-link-hover"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          Soutenir l'association
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-heart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Accueil</a>
+<!-- MISSION -->
+<section class="section-padding">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <div class="section-subtitle">Notre mission</div>
+
+        <h2 class="section-title">
+          Suivre l'évolution des glaciers des Pyrénées françaises
+        </h2>
+
+        <p>
+          A l’aube du 21ème siècle, les glaciers des Pyrénées françaises
+          souffraient d’une méconnaissance importante (effectifs, localisations,
+          caractéristiques). En effet, ils n’avaient pas connu d’observations
+          d’ensemble depuis la fin des années 1980. Tandis que sur le versant
+          espagnol, ils font l’objet d’un suivi annuel régulier et l’on connaît
+          précisément leurs évolutions.
+        </p>
+
+        <a
+          href="{{ site.baseurl }}/association"
+          class="fw-semibold icon-link icon-link-hover align-items-center"
+        >
+          En savoir plus sur l'association
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="objective-card">
+          <h4 class="fw-bold mb-4">Nos objectifs</h4>
+
+          <ul class="objective-list p-0 m-0">
+            <li>
+              Suivre annuellement l'évolution des glaciers (longueur, surface,
+              volume).
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">L'association</a>
+            <li>
+              Mettre à disposition des données fiables à l'échelle de la chaîne
+              pyrénéenne.
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Les glaciers des pyrénées</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Le livre</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Bibliographie</a>
-            </li>
-
-            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-              <a
-                href="#"
-                class="btn btn-light rounded-pill px-4 fw-semibold icon-link gap-2"
-              >
-                Nous soutenir
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-heart"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
-                  />
-                </svg>
-              </a>
+            <li>
+              Informer et sensibiliser le public grâce à différents moyens de
+              communication.
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
+</section>
 
-    <!-- HERO -->
-    <section class="hero-section">
-      <div class="container">
-        <div class="hero-content">
-          <h1>Observer, comprendre, transmettre</h1>
+<!-- ACTIVITIES -->
+<section class="pb-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-subtitle">Nos activités</div>
 
-          <p>
-            L'association Moraine est l'observatoire des glaciers des Pyrénées
-            françaises. Nous suivons chaque année l'évolution des glaciers pour
-            mieux comprendre les changements de notre environnement montagnard.
+      <h2 class="section-title">Observer. Analyser. Partager.</h2>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://dis-leur.fr/wp-content/uploads/2025/02/20240913_112050.jpg"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-graph-up"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Suivi des glaciers</h5>
+
+            <p>
+              Observations de terrain et mesures annuelles pour documenter
+              l'évolution des glaciers pyrénéens.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://live.staticflickr.com/938/42091246340_f6fa336f4c_z.jpg"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-people"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Collaboration scientifique</h5>
+
+            <p>
+              Partenariats avec des glaciologues espagnols et institutions pour
+              des données complètes et fiables.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://live.staticflickr.com/5554/31110633770_20bd5f20d8_z.jpg"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-megaphone"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Diffusion des connaissances</h5>
+
+            <p>
+              Conférences, publications, expositions et médias pour partager la
+              connaissance des glaciers.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6 col-xl-3">
+        <div class="card activity-card">
+          <img
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1000&auto=format&fit=crop"
+            alt=""
+          />
+
+          <div class="card-body mt-n5">
+            <div class="icon-circle">
+              <i class="bi bi-camera"></i>
+            </div>
+
+            <h5 class="fw-bold mb-3">Ressources & données</h5>
+
+            <p>
+              Accédez à nos ressources, bibliographie et liens utiles sur la
+              glaciologie.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED BOOK -->
+<section class="section-padding">
+  <div class="container">
+    <div class="bg-light rounded-4 p-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-3">
+          <div class="book-cover">
+            <img
+              src="{{ site.baseurl }}/images/livre_table.jpg"
+              alt="Book Cover"
+            />
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="section-subtitle">Le livre</div>
+
+          <h2 class="section-title mb-3">Glaciers des Pyrénées</h2>
+
+          <div class="section-subtitle">26 ans d'exploration et de mesures</div>
+
+          <p class="mb-4">
+            Synthèse de décennies d'observation sur les glaciers des Pyrénées
+            françaises. Un ouvrage de référence pour comprendre leur évolution
+            et les enjeux climatiques associés.
           </p>
 
-          <div class="d-flex flex-wrap gap-3">
-            <a
-              href="#"
-              class="btn btn-primary-custom icon-link icon-link-hover"
+          <a
+            href="{{ site.baseurl }}/livre"
+            class="btn btn-primary-custom icon-link icon-link-hover"
+          >
+            En savoir plus sur le livre
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
             >
-              Découvrir les glaciers
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                />
-              </svg>
-            </a>
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+        </div>
 
-            <a
-              href="#"
-              class="btn btn-outline-light-custom icon-link icon-link-hover"
+        <div class="col-lg-3">
+          <div class="book-feature">
+            <i class="bi bi-bar-chart-line"></i>
+
+            <div>
+              <h6 class="fw-bold mb-1">Données scientifiques rigoureuses</h6>
+            </div>
+          </div>
+
+          <div class="book-feature">
+            <i class="bi bi-image"></i>
+
+            <div>
+              <h6 class="fw-bold mb-1">Photos et cartes inédites</h6>
+            </div>
+          </div>
+
+          <div class="book-feature">
+            <i class="bi bi-book"></i>
+
+            <div>
+              <h6 class="fw-bold mb-1">Outil de référence pour tous</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="pb-5">
+  <div class="container">
+    <div class="cta-section">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2rem"
+              height="2rem"
+              fill="currentColor"
+              class="bi bi-heart me-2"
+              viewBox="0 0 16 16"
             >
-              Soutenir l'association
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-heart"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- MISSION -->
-    <section class="section-padding">
-      <div class="container">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-7">
-            <div class="section-subtitle">Notre mission</div>
-
-            <h2 class="section-title">
-              Suivre l'évolution des glaciers des Pyrénées françaises
-            </h2>
-
-            <p>
-              A l’aube du 21ème siècle, les glaciers des Pyrénées françaises
-              souffraient d’une méconnaissance importante (effectifs,
-              localisations, caractéristiques). En effet, ils n’avaient pas
-              connu d’observations d’ensemble depuis la fin des années 1980.
-              Tandis que sur le versant espagnol, ils font l’objet d’un suivi
-              annuel régulier et l’on connaît précisément leurs évolutions.
-            </p>
-
-            <p>
-              Créée en 2001, L’association « Moraine » est l’Observatoire des
-              Glaciers des Pyrénées françaises. Elle a donc pour objectif de
-              suivre annuellement leur évolution (longueur, surface, volume).
-              Une collaboration étroite avec les glaciologues espagnols permet
-              d’avoir des informations complètes à l’échelle de la chaîne. De
-              plus, l’objectif est de diffuser largement les connaissances sur
-              le sujet grâce à différents moyens de communication (internet,
-              conférences, livre, exposition, médias).
-            </p>
-
-            <a
-              href="#"
-              class="fw-semibold icon-link icon-link-hover align-items-center"
-            >
-              En savoir plus sur l'association
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                />
-              </svg>
-            </a>
-          </div>
-
-          <div class="col-lg-5">
-            <div class="objective-card">
-              <h4 class="fw-bold mb-4">Nos objectifs</h4>
-
-              <ul class="objective-list p-0 m-0">
-                <li>
-                  Suivre annuellement l'évolution des glaciers (longueur,
-                  surface, volume).
-                </li>
-
-                <li>
-                  Mettre à disposition des données fiables à l'échelle de la
-                  chaîne pyrénéenne.
-                </li>
-
-                <li>
-                  Informer et sensibiliser le public grâce à différents moyens
-                  de communication.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ACTIVITIES -->
-    <section class="pb-5">
-      <div class="container">
-        <div class="text-center mb-5">
-          <div class="section-subtitle">Nos activités</div>
-
-          <h2 class="section-title">Observer. Analyser. Partager.</h2>
-        </div>
-
-        <div class="row g-4">
-          <!-- Card 1 -->
-          <div class="col-md-6 col-xl-3">
-            <div class="card activity-card">
-              <img
-                src="https://dis-leur.fr/wp-content/uploads/2025/02/20240913_112050.jpg"
-                alt=""
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
               />
+            </svg>
+            Soutenez nos actions
+          </h2>
 
-              <div class="card-body mt-n5">
-                <div class="icon-circle">
-                  <i class="bi bi-graph-up"></i>
-                </div>
+          <p class="mb-0 text-white-50">
+            Votre adhésion ou votre don nous permet de poursuivre le suivi des
+            glaciers et la diffusion des connaissances.
+          </p>
+        </div>
 
-                <h5 class="fw-bold mb-3">Suivi des glaciers</h5>
+        <div class="col-lg-6 text-lg-end">
+          <a
+            href="#"
+            class="btn btn-light px-4 py-3 rounded-pill fw-semibold me-2"
+          >
+            Adhérer à l'association
+          </a>
 
-                <p>
-                  Observations de terrain et mesures annuelles pour documenter
-                  l'évolution des glaciers pyrénéens.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="col-md-6 col-xl-3">
-            <div class="card activity-card">
-              <img
-                src="https://live.staticflickr.com/938/42091246340_f6fa336f4c_z.jpg"
-                alt=""
-              />
-
-              <div class="card-body mt-n5">
-                <div class="icon-circle">
-                  <i class="bi bi-people"></i>
-                </div>
-
-                <h5 class="fw-bold mb-3">Collaboration scientifique</h5>
-
-                <p>
-                  Partenariats avec des glaciologues espagnols et institutions
-                  pour des données complètes et fiables.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="col-md-6 col-xl-3">
-            <div class="card activity-card">
-              <img
-                src="https://live.staticflickr.com/5554/31110633770_20bd5f20d8_z.jpg"
-                alt=""
-              />
-
-              <div class="card-body mt-n5">
-                <div class="icon-circle">
-                  <i class="bi bi-megaphone"></i>
-                </div>
-
-                <h5 class="fw-bold mb-3">Diffusion des connaissances</h5>
-
-                <p>
-                  Conférences, publications, expositions et médias pour partager
-                  la connaissance des glaciers.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 4 -->
-          <div class="col-md-6 col-xl-3">
-            <div class="card activity-card">
-              <img
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1000&auto=format&fit=crop"
-                alt=""
-              />
-
-              <div class="card-body mt-n5">
-                <div class="icon-circle">
-                  <i class="bi bi-camera"></i>
-                </div>
-
-                <h5 class="fw-bold mb-3">Ressources & données</h5>
-
-                <p>
-                  Accédez à nos ressources, bibliographie et liens utiles sur la
-                  glaciologie.
-                </p>
-              </div>
-            </div>
-          </div>
+          <a
+            href="#"
+            class="btn btn-outline-light rounded-pill px-4 py-3 fw-semibold"
+          >
+            Faire un don
+          </a>
         </div>
       </div>
-    </section>
-
-    <!-- FEATURED BOOK -->
-    <section class="section-padding">
-      <div class="container">
-        <div class="book-section">
-          <div class="row align-items-center g-5">
-            <div class="col-lg-3">
-              <div class="book-cover">
-                <img
-                  src="https://static.fnac-static.com/multimedia/Images/FR/NR/42/76/23/19101250/1507-1/tsp20251212092029/Glaciers-des-Pyrenees.jpg"
-                  alt="Book Cover"
-                />
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="section-subtitle">Le livre</div>
-
-              <h2 class="section-title mb-3">Glaciers des Pyrénées</h2>
-
-              <div class="section-subtitle">
-                26 ans d'exploration et de mesures
-              </div>
-
-              <p class="mb-4">
-                Synthèse de décennies d'observation sur les glaciers des
-                Pyrénées françaises. Un ouvrage de référence pour comprendre
-                leur évolution et les enjeux climatiques associés.
-              </p>
-
-              <a
-                href="#"
-                class="btn btn-primary-custom icon-link icon-link-hover"
-              >
-                En savoir plus sur le livre
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                  />
-                </svg>
-              </a>
-            </div>
-
-            <div class="col-lg-3">
-              <div class="book-feature">
-                <i class="bi bi-bar-chart-line"></i>
-
-                <div>
-                  <h6 class="fw-bold mb-1">
-                    Données scientifiques rigoureuses
-                  </h6>
-                </div>
-              </div>
-
-              <div class="book-feature">
-                <i class="bi bi-image"></i>
-
-                <div>
-                  <h6 class="fw-bold mb-1">Photos et cartes inédites</h6>
-                </div>
-              </div>
-
-              <div class="book-feature">
-                <i class="bi bi-book"></i>
-
-                <div>
-                  <h6 class="fw-bold mb-1">Outil de référence pour tous</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="pb-5">
-      <div class="container">
-        <div class="cta-section">
-          <div class="row align-items-center g-4">
-            <div class="col-lg-6">
-              <h2 class="fw-bold mb-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="2rem"
-                  height="2rem"
-                  fill="currentColor"
-                  class="bi bi-heart me-2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
-                  />
-                </svg>
-                Soutenez nos actions
-              </h2>
-
-              <p class="mb-0 text-white-50">
-                Votre adhésion ou votre don nous permet de poursuivre le suivi
-                des glaciers et la diffusion des connaissances.
-              </p>
-            </div>
-
-            <div class="col-lg-6 text-lg-end">
-              <a
-                href="#"
-                class="btn btn-light px-4 py-3 rounded-pill fw-semibold me-2"
-              >
-                Adhérer à l'association
-              </a>
-
-              <a
-                href="#"
-                class="btn btn-outline-light rounded-pill px-4 py-3 fw-semibold"
-              >
-                Faire un don
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-4">
-            <h5>Assotation Moraine</h5>
-
-            <p>Observatoire des glaciers des Pyrénées.</p>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <h5>Navigation</h5>
-
-            <a href="#">Accueil</a>
-            <a href="#">L'association</a>
-            <a href="#">Les glaciers des Pyrénées</a>
-            <a href="#">Le lirre</a>
-            <a href="#">Bibliographie</a>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <h5>Contact</h5>
-
-            <p>
-              Mairie<br />
-              23 allée d'Etigny<br />
-              31110 Luchon
-            </p>
-
-            <p>asso.moraine@wanadoo.fr</p>
-
-            <p>+33 6 71 47 30 32</p>
-          </div>
-        </div>
-
-        <div
-          class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center"
-        >
-          <div>© 2026 Association Moraine. Tous droits réservés.</div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Scroll effect -->
-    <script>
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 50) {
-          document.body.classList.add("scrolled");
-        } else {
-          document.body.classList.remove("scrolled");
-        }
-      });
-    </script>
-  </body>
-</html>
+    </div>
+  </div>
+</section>

@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html class="h-100">
-
+<html>
   {% include head.html %}
 
-  <body class="d-flex flex-column h-100">
-    <header id="top-nav" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm bg-dark">
-      {% include nav.html %}
-    </header>
-    <div class="container">
-      <div class="row">
-        {% include breadcrumbs.html %}
-      </div>
-    </div>
-    <div class="container">
-      {{ content }}
-    </div>
-    <footer class="container-fluid bg-dark flex-grow-1 mt-4">
-      <div class="container text-white py-4">
-        {% include footer.html %}
-      </div>
-    </footer>
-  </body>
+  <body>
+  {% include navbar.html %}
+  <div class="container">
+  {% include breadcrumbs.html %}
+  </div>
+  <div class="container">
+  {{ content }}
+  </div>
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+  <body>
 </html>

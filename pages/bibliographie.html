@@ -1,0 +1,63 @@
+---
+layout: default
+title: Bibliographie
+permalink: bibliographie
+section: bibliographie
+---
+
+<section>
+  <div class="objective-card">
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="icon-circle">
+          <i class="bi bi-megaphone"></i>
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <div class="section-subtitle">Diffusion des connaissances</div>
+        <h2 class="section-title">Publications</h2>
+        L'association Moraine produit un grand nombre de documents (rapports,
+        articles, buletins), conceptualise des panneaux à destination du grand
+        public, mais intervient aussi parfois dans les médias (télévision,
+        radio, etc...).
+      </div>
+    </div>
+  </div>
+</section>
+
+{% assign sections = "Articles:articles,Rapports:rapports,Bulletins de
+l'association:bulletins,Panneaux didactiques:panneaux,Médias -
+Magazines:magazines, Médias - Journaux:journaux, Médias -
+Télévision:televisions, Médias - Radio & Podcasts:radios" | split: "," %}
+<section>
+  <div class="container pb-5">
+    <div class="row flex-md-row-reverse">
+      <div class="col-md-3 pt-4">
+        <nav
+          class="position-sticky navbar rounded"
+          style="top: 10rem"
+          data-bs-theme="light"
+        >
+          <ul class="nav nav-underline flex-column" id="table-of-content">
+            {% for s in sections %} {% assign parts = s | split: ":" %} {%
+            assign title = parts[0] %} {% assign key = parts[1] %}
+            <li class="nav-item">
+              <a class="nav-link py-0" href="#{{ key }}">{{ title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+      <div
+        class="col-md-9"
+        data-bs-spy="scroll"
+        data-bs-target="#table-of-content"
+      >
+        {% for s in sections %} {% assign parts = s | split: ":" %} {% assign
+        title = parts[0] %} {% assign key = parts[1] %} {% assign items =
+        site.data[key] %}{% include bibliographie_section.html title=title
+        key=key items=items %} {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
