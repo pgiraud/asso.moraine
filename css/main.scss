@@ -1,8 +1,17 @@
 ---
 # Front matter required for conversion to css
 ---
+@function hexToRGBString($hexColor) {
+  @return #{red($hexColor)}, #{green($hexColor)}, #{blue($hexColor)};
+}
+
+$primary: #0d4ea6;
+
+$primary-rgb: hexToRGBString($primary);
+
 :root {
-  --primary-color: #0d4ea6;
+  --primary-color: #{$primary};
+  --bs-primary-rgb: #{$primary-rgb};
   --secondary-color: #16375b;
   --dark-color: #0b1f36;
   --light-bg: #f4f7fb;
@@ -295,9 +304,8 @@ footer h5 {
 }
 
 footer a {
-  color: rgba(255, 255, 255, 0.8);
+  color: lighten($primary, 50%);
   display: block;
-  margin-bottom: 10px;
 }
 
 footer a:hover {
