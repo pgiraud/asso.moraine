@@ -16,6 +16,8 @@ $primary-rgb: hexToRGBString($primary);
   --dark-color: #0b1f36;
   --light-bg: #f4f7fb;
   --body-padding: 7rem;
+  --navbar-bg-solid: rgba(24, 54, 90, 0.96);
+  --navbar-shadow: 0 2px 10px rgba(0,0,0,.2);
 }
 
 body {
@@ -83,9 +85,18 @@ section,
 
 body:not(.has-hero) .navbar-main,
 body.has-hero.scrolled .navbar-main {
-  background-color: rgba(24, 54, 90, 0.96);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: var(--navbar-bg-solid);
+  box-shadow: var(--navbar-shadow);
 }
+
+@media (max-width: 991.98px) {
+  .navbar-main {
+    background-color: var(--navbar-bg-solid);
+    box-shadow: var(--navbar-shadow);
+  }
+}
+
+
 .navbar-main {
   .navbar-brand {
     font-size: 1.6rem;
