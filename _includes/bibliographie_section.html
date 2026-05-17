@@ -6,27 +6,61 @@
       <ul>
         {% for item in include.items %}
         <li>
-          {% if item.magazine or item.journal or item.chaine %}
-          <b>{{ item.magazine }}{{ item.journal }}{{ item.chaine }}</b>
-          <br />
-          {% if item.title %}
-          <span>{{ item.title }}</span>
-          <br />
-          {% endif %} {% else %}
-          <b>{{ item.title }}</b>
-          <br />
-          {% endif %} {% if item.subtitle %} {{ item.subtitle }}
-          <br />
-          {%endif %}
-          <small class="text-secondary">
-            {% if item.author %}
-            <em>{{ item.author }}, {{ item.year }}</em>
-            {% endif %} {% if item.date %}
-            <em>{{ item.date }}</em>{% endif %}{% if item.pages %}<em>
-              , {{ item.pages }}</em
-            >
+          <div class="row align-items-center g-4">
+            {% if item.image %}
+            <div class="col-lg-4">
+              <a
+                href="{{ site.baseurl }}/images/{{ item.image}}"
+                target="_blank"
+              >
+                <img
+                  src="{{ site.baseurl }}/images/{{ item.image}}"
+                  alt=""
+                  class="img-fluid shadow my-4"
+                />
+              </a>
+            </div>
             {% endif %}
-          </small>
+
+            <div class="col">
+              {% if item.magazine or item.journal or item.chaine %}
+              <b>{{ item.magazine }}{{ item.journal }}{{ item.chaine }}</b>
+              <br />
+              {% if item.title %}
+              <span>{{ item.title }}</span>
+              <br />
+              {% endif %} {% else %}
+              <b>{{ item.title }}</b>
+              <br />
+              {% endif %} {% if item.editor or item.subtitle %} {{ item.editor
+              }} {{ item.subtitle }}
+              <br />
+              {%endif %} {% if item.document %}<a
+                href="{{ site.baseurl }}/images/bulletins/{{item.document}}.pdf"
+                target="_blank"
+                >{{ item.document }}</a
+              ><br />{%endif%}
+              <small class="text-secondary">
+                {% if item.author %}
+                <em>{{ item.author }}, {{ item.year }}</em>{% endif %}{% if
+                item.date %}<em>{{ item.date }}</em>{% endif %}{% if item.pages
+                %}<em>, {{ item.pages }}</em>
+                {% endif %}
+              </small>
+              <br />
+              {% if item.link %} {% if item.link contains "http" %}
+              <a href="{{ item.link }}" class="btn btn-primary mb-2"
+                >Voir ou écouter</a
+              >
+              {% else %}
+              <a
+                href="{{ site.baseurl }}/{{ item.link }}"
+                class="btn btn-primary mb-2"
+                >En savoir plus</a
+              >
+              {% endif %} {% endif %}
+            </div>
+          </div>
         </li>
         {% endfor %}
       </ul>
