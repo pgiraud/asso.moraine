@@ -104,7 +104,7 @@ F- 09000 Foix
     <div class="card border-0  shadow rounded-4 h-100">
       <div class="row align-items-center">
           <div class="col">
-      <img src="{{ site.baseurl }}/images/collaborateurs/logo_CD31.png" class="align-self-center p-3 img-fluid" alt="...">
+      <img src="{{ site.baseurl }}/images/collaborateurs/Logo CD31.png" class="align-self-center p-3 img-fluid" alt="...">
           </div>
           <div class="col">
       <img src="{{ site.baseurl }}/images/collaborateurs/Logo Garon'Amont.jpg" class="align-self-center p-3 img-fluid" alt="...">
@@ -205,7 +205,7 @@ F- 31000 Toulouse
       <div class="card-body">
 <address class="mb-0">
 <strong>Parc National des Pyrénées</strong><br>
-59 route de Pau<br>
+2 rue du IV septembre<br>
 F- 65000 Tarbes
 </address>
       </div>
