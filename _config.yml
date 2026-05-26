@@ -1,10 +1,11 @@
 # Site settings
-title: Moraine - Association pyrénéenne de glaciologie 
+title: Moraine - Association pyrénéenne de glaciologie
 description: > # this means to ignore newlines until "baseurl:"
   Association Moraine pour l'étude des glaciers des Pyrénées.
   Suivi de l'évolution campagnes de mesure de surface et de profondeur
   conférences diaporamas sorties thématiques.
-baseurl: "/asso.moraine" # the subpath of your site, e.g. /blog/
+baseurl: ""
+url: "https://www.asso-moraine.fr"
 
 # Build settings
 markdown: kramdown
